@@ -26,7 +26,7 @@ Live list of action items. Once completed, record in /docs and remove
 
 ## Material and Budget
 
-See here for the live budget with links to materials: [BUDGET](https://docs.google.com/spreadsheets/d/1bmx6NvOzqA9RtNRQ0SMGFXo03kBSfUuURUfy_uOvEtI/edit?usp=sharing)
+See here for the live budget with links to materials: [BUDGET](https://docs.google.com/spreadsheets/d/1oGoLCpEEcJNgCdJp1yFPbvFVYQjBTa5PGdgrq4-x1HY/edit?usp=sharing)
 
 This robot could be made at its cheapest for $40. Better motors, spare parts, and complex test rigs could raise this price significantly.
 
