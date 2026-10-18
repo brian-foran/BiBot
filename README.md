@@ -2,9 +2,37 @@
 
 BiBot is my Master's thesis project: a fully custom-built bipedal robot whose dynamic control will be developed through reinforcement learning.
 
-This repository is both the engineering workspace and the evidence trail for the project. Keep dated notes on what was tried, what happened, and why decisions were made. Those records should make it possible to explain the engineering journey in the thesis and portfolio without relying on memory.
+This repository is both the engineering workspace and the evidence trail for the project. Beyond being my note-keeping repo for the eventual theis paper, I want this to serve as a log book for the planning, decisions, setbacks, and achievements that occur when pursuing a large-scale engineering project.
 
-## Repository map
+## TODO
+Live list of action items. Once completed, record in /docs and remove
+
+* Mechanical
+    
+    * Design new legs in Autocad
+    * Buy new servos, etc
+
+* Electrical
+
+    * Design and budget PCB
+    * Investigate potentiometers for feedback
+
+* Firmware
+
+    * Make Nano the Master
+    * Broadcast all state info (servo pos, gyro, accel to ESP)
+    * Figure out ESP messaging to master using interupt for web control
+    * Store live data on laptop / rpi using esp wifi
+
+## Material and Budget
+
+See here for the live budget with links to materials: [BUDGET](https://docs.google.com/spreadsheets/d/1bmx6NvOzqA9RtNRQ0SMGFXo03kBSfUuURUfy_uOvEtI/edit?usp=sharing)
+
+This robot could be made at its cheapest for $40. Better motors, spare parts, and complex test rigs could raise this price significantly.
+
+
+# Repo Info
+## Directory map
 
 ```text
 engineering/
@@ -16,7 +44,6 @@ docs/
 	decisions/               Decision log and individual decision records
 	experiments/              Reproducible tests and results
 	journal/                  Dated build notes and challenges
-	portfolio/                Portfolio story sourced from project evidence
 	thesis/                   Thesis outline and evidence pointers
 ```
 
@@ -30,4 +57,4 @@ docs/
 
 ## Project status
 
-The repository is at the project-setup stage. Update this section as the build progresses, and link to the current roadmap or major milestone when one is established.
+The project is early in the development state. I am determining scope and feasability now, which are likely to change
