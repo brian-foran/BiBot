@@ -1,0 +1,6 @@
+# Python virtual environments
+engineering/firmware/python/.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]

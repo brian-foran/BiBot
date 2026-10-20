@@ -14,8 +14,8 @@ Live list of action items. Once completed, record in /docs and remove
 
 * Electrical
 
-    * Design and budget PCB
     * Investigate potentiometers for feedback
+    * But perfboard supplies
 
 * Firmware
 

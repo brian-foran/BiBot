@@ -26,17 +26,13 @@ Yesterday, I spoke with Andreu and we decided that a personal project I had alre
 - Finally, I started task tracking by creating this repo and a budget spreadsheet (TODO: Link google sheets)
 
 ## Observations
-What happened, including measurements or unexpected behavior?
-
-## Challenges and response
-What was difficult? What did you try, and what did you learn?
+The initial combination of servos (MS18) and first draft 3D printed frame resulted in low rigidity and significant backlash. 
 
 ## Decisions or open questions
 - Decision records: 
 - Questions to resolve: 
 
 ## Evidence
-Link code, CAD, photos, measurements, or experiment records.
 
 ## Next steps
 -
