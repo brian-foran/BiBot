@@ -58,6 +58,9 @@ Testing rate=5000 Hz batch=20 for 5.0s
 ## Observations
 More testing will be needed, but 500 samples/sec seems to be the limit when using a single sample per packet. However, we can recieve much more samples per second if we queue them into packets. Thus, the true limit comes from onboard memory limit.
 
+Got working with hotspot too, limit at 20 samp/pack falls from 5000 to 1200, but possible backup option
+* BE SURE TO HAVE MAXIMIZE COMPATABILITY TURNED ON
+
 ## Decisions or open questions
 - Decision records: 
     * Decided to remove using Eduroam as a goal. Not worth the trouble, will use hot spot if needed. 
