@@ -18,13 +18,14 @@ However, BLDC motors, especially kits with the magnet, encoder, and driver inclu
 | **BLDC** | Dynamic Model<br>Tuning<br>Back Drive | More expensive<br>Longer delivery<br>More complicated<br>Higher power requirements<br>More additional electronics (encoder, driver, power step-down, etc.)<br>Necessitate larger robot<br>More complicated joint geometry |
 
 
-
+I think a potential compromise could be a slightly nicer servo motor that has torque feedback. The STS3215 servo has has torque feedback and an integrated velocity control loop. There still would be no backdrive, and I am not certain how much tuning can be done on the closed loop response, but at least torque could be included in the state-space. 
 
 
 ## Work completed
 
 
 ## Observations
+
 
 ## Decisions or open questions
 
